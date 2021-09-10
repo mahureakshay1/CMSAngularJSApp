@@ -1,0 +1,35 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: #e2e1e0;
+}
+
+
+
+.content {
+    height: 89vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.view {
+    height: 70vh;
+    width: 180vh;
+    background-color: red;
+    background: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    overflow:scroll;
+}
+
+h1 {
+    position: relative;
+    color: cadetblue;
+    font-size: 7vh;
+    padding: 0;
+    margin: 0;
+}

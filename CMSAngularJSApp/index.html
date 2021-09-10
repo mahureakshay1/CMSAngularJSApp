@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>CMS App</title>
+    <script src="/Scripts/angular.js"></script>
+    <script src="Scripts/angular-route.min.js"></script>
+
+    <script src="Controller/App.js"></script>
+    <script src="Controller/HomeController.js"></script>
+    <script src="Controller/EditContactController.js"></script>
+    <script src="Services/Services.js"></script>
+    <script src="Filters/CustomFilters.js"></script>
+    <script src="Controller/AddContactController.js"></script>
+    <script src="Controller/ViewDataController.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="/Style/CMSAppStyle.css" rel="stylesheet" />
+</head>
+<body ng-app="cmsApp">
+
+    <div class="content">
+        <div>
+            <h1>Contact management System</h1><br />
+            <div class="view" ng-view>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
